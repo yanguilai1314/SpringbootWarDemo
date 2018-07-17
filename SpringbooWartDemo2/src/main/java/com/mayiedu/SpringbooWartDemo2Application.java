@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages= {"com.mayiedu.mapper"})
+@MapperScan(basePackages= {"com.mayiedu"})  //扫同级包及其子包
 public class SpringbooWartDemo2Application {
 
 	public static void main(String[] args) {
