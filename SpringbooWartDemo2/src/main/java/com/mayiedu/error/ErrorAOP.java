@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author Administrator
  *
  */
-@ControllerAdvice(basePackages="com.mayiedu.controller")
+/*@ControllerAdvice(basePackages="com.mayiedu.controller")
 public class ErrorAOP {
 	
 	
@@ -19,3 +19,4 @@ public class ErrorAOP {
 		return "error";
 	}
 }
+*/
